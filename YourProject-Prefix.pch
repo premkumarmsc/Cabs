@@ -1,0 +1,80 @@
+//
+//  YourProject-Prefix.pch
+//  
+//
+//  Created by Prem Kumar on 01/12/16.
+//
+//
+
+#ifndef YourProject_Prefix_pch
+#define YourProject_Prefix_pch
+#define IS_IPHONE_4_OR_LESS (IS_IPHONE && SCREEN_MAX_LENGTH < 568.0)
+#define IS_IPHONE_5 (IS_IPHONE && SCREEN_MAX_LENGTH == 568.0)
+#define IS_IPHONE_6 (IS_IPHONE && SCREEN_MAX_LENGTH == 667.0)
+#define IS_IPHONE_6P (IS_IPHONE && SCREEN_MAX_LENGTH == 736.0)
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_RETINA ([[UIScreen mainScreen] scale] >= 2.0)
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+#define SCREEN_MAX_LENGTH (MAX(SCREEN_WIDTH, SCREEN_HEIGHT))
+#define SCREEN_MIN_LENGTH (MIN(SCREEN_WIDTH, SCREEN_HEIGHT))
+
+#define ApiBaseURL @"http://103.27.119.90/InfoCabsAPI/InfoCabRestAPI.svc"
+#define ApiBaseURLNew @"http://school.asvhi.in/ashvi/api/index.php/parents"
+
+
+#define RateCardURL @"http://www.hellocabs.com.mm/en/content/rate-card"
+#define PrimiarCabURL @"http://www.hellocabs.com.mm/car-rental"
+
+
+#import "AFNetworking.h"
+#import "ProgressHUD.h"
+#import "ActionSheetDatePicker.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "SideView.h"
+#import "UIAlertView+Blocks.h"
+#import "ADPageControl.h"
+#import "DashboardViewController.h"
+#import "TimeCell.h"
+#import "TimeViewController.h"
+#import "SupportViewController.h"
+#import "AboutViewController.h"
+#import "RateCardViewController.h"
+#import "ViewController.h"
+#import "ProfileViewController.h"
+#import "BlockAlertView.h"
+#import "BlockActionSheet.h"
+#import "BlockTextPromptAlertView.h"
+#import "BlockTableAlertView.h"
+#import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import "Annotation.h"
+#import "PremierViewController.h"
+#import <GoogleMaps/GoogleMaps.h>
+#import "ConfirmViewController.h"
+#import "TimerViewController.h"
+#import "LeveyPopListView.h"
+#import "DriverViewController.h"
+#import "CencelledViewController.h"
+#import "CompletedViewController.h"
+#import "UpcomingViewController.h"
+#import "StarRatingControl.h"
+#import "TimeCell.h"
+#import "FavViewController.h"
+#import "FavCell.h"
+
+
+
+
+#define SupportLabel @"Support"
+#define SupportLabel_KA @"Support Kanada"
+
+
+
+
+
+
+
+#endif /* YourProject_Prefix_pch */

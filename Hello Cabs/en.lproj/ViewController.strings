@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; normalTitle = "Log In"; ObjectID = "2OC-uK-4x8"; */
+"2OC-uK-4x8.normalTitle" = "Log In";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "49s-Q1-TGx"; */
+"49s-Q1-TGx.placeholder" = "Password";
+
+/* Class = "UITextField"; text = "123456"; ObjectID = "49s-Q1-TGx"; */
+"49s-Q1-TGx.text" = "123456";
+
+/* Class = "UITextField"; placeholder = "Mobile Number"; ObjectID = "8pM-hN-9NF"; */
+"8pM-hN-9NF.placeholder" = "Mobile Number";
+
+/* Class = "UITextField"; text = "9731528286"; ObjectID = "8pM-hN-9NF"; */
+"8pM-hN-9NF.text" = "9731528286";
+
+/* Class = "UILabel"; text = "LOGIN"; ObjectID = "GMN-Dv-ebs"; */
+"GMN-Dv-ebs.text" = "LOGIN";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "jBH-zA-COY"; */
+"jBH-zA-COY.placeholder" = "Password";

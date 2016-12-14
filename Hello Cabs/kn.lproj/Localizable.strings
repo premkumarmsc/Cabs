@@ -1,0 +1,14 @@
+/* 
+  localizable.strings
+  Hello Cabs
+
+  Created by Prem Kumar on 02/12/16.
+  Copyright © 2016 Syzygy Enterprise Solutions. All rights reserved.
+*/
+
+
+/*Login Screen*/
+
+"VALID_MOBILE" = "ದಯವಿಟ್ಟು ಮಾನ್ಯ ಮೊಬೈಲ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ";
+"VALID_PASSWORD" = "ಪಾಸ್ವರ್ಡ್ ನಮೂದಿಸಿ";
+

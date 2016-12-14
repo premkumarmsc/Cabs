@@ -1,0 +1,9 @@
+/* 
+  localizable.strings
+  Hello Cabs
+
+  Created by Prem Kumar on 02/12/16.
+  Copyright © 2016 Syzygy Enterprise Solutions. All rights reserved.
+*/
+"VALID_MOBILE" = "Please enter valid Mobile number";
+"VALID_PASSWORD" = "Please enter password";

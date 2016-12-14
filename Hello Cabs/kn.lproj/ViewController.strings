@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; normalTitle = "Log In"; ObjectID = "2OC-uK-4x8"; */
+"2OC-uK-4x8.normalTitle" = "ಲಾಗ್";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "49s-Q1-TGx"; */
+"49s-Q1-TGx.placeholder" = "ಪಾಸ್ವರ್ಡ್";
+
+/* Class = "UITextField"; text = "123456"; ObjectID = "49s-Q1-TGx"; */
+"49s-Q1-TGx.text" = "123456";
+
+/* Class = "UITextField"; placeholder = "Mobile Number"; ObjectID = "8pM-hN-9NF"; */
+"8pM-hN-9NF.placeholder" = "ಮೊಬೈಲ್ ನಂಬರ";
+
+/* Class = "UITextField"; text = "9731528286"; ObjectID = "8pM-hN-9NF"; */
+"8pM-hN-9NF.text" = "9731528286";
+
+/* Class = "UILabel"; text = "LOGIN"; ObjectID = "GMN-Dv-ebs"; */
+"GMN-Dv-ebs.text" = "ಲಾಗಿನ್";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "jBH-zA-COY"; */
+"jBH-zA-COY.placeholder" = "ಪಾಸ್ವರ್ಡ್";

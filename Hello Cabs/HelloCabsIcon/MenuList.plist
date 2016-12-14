@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>controller</key>
+		<string>AlphaViewController</string>
+		<key>name</key>
+		<string>Alphabets</string>
+		<key>img</key>
+		<string>alphabet</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>LettersViewController</string>
+		<key>name</key>
+		<string>Numbers</string>
+		<key>img</key>
+		<string>numbers</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>GreetingsViewController</string>
+		<key>name</key>
+		<string>Phrases</string>
+		<key>img</key>
+		<string>phrases</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>About</string>
+		<key>name</key>
+		<string>About</string>
+		<key>img</key>
+		<string>about</string>
+	</dict>
+</array>
+</plist>

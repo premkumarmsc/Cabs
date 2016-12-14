@@ -16,7 +16,34 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    
+    [GMSPlacesClient provideAPIKey:@"AIzaSyCqpy_fhNbp0m4K9kvo1YVHQarSKPjd6S4"];
+    [GMSServices provideAPIKey:@"AIzaSyCqpy_fhNbp0m4K9kvo1YVHQarSKPjd6S4"];
+    
+    
+    if([[[NSUserDefaults standardUserDefaults]stringForKey:@"LANGUAGE"] isEqualToString:@""] || [[NSUserDefaults standardUserDefaults]stringForKey:@"LANGUAGE"] == [NSNull null] || [[NSUserDefaults standardUserDefaults]stringForKey:@"LANGUAGE"].length == 0)
+    {
+         [[NSUserDefaults standardUserDefaults]setObject:@"EN" forKey:@"LANGUAGE"];
+    }
+    
+    
+    
+    
+    
+   // [ProgressHUD show:nil Interaction:NO];
+    
+       
+    
+    
+    sleep(2);
+    application.statusBarStyle = UIStatusBarStyleLightContent;
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    ViewController *vwObj = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    UINavigationController *naviObj =[[UINavigationController alloc]initWithRootViewController:vwObj];
+    self.window.rootViewController=naviObj;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
